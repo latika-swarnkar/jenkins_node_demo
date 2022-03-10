@@ -11,7 +11,7 @@ app.get('/about',(req,res)=>{
 })
 
 app.get('/career',(req,res)=>{
-    console.log("About Page logged in")
+    console.log("Career Page logged in")
     res.send("<h1>This is Career Page</h1")
 })
 
